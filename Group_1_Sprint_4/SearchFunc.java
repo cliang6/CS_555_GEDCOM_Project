@@ -38,5 +38,39 @@ public class SearchFunc{
 	}
 	
 	
+	public static String fetchSurname(String id, List<List<String>> idList){
+		
+		String surname = null;
+		int begin = -1;
+		int end = -1;
+		
+		for(int j = 0; j < idList.size(); j++){
+			if(idList.get(j).get(0).equals(id)){
+				begin = idList.get(j).get(1).indexOf("/");
+				end = idList.get(j).get(1).indexOf("/", begin + 1);
+				surname = idList.get(j).get(1).substring(begin + 1, end);
+			}
+		}
+		
+		return surname;
+	}
+	
+	
+	public static boolean checkMale(String id, List<List<String>> idList){
+		
+		for(int i = 0; i < idList.size(); i++){
+			if(idList.get(i).get(0).equals(id)){
+				if(idList.get(i).get(2).equals("M")){
+					return true;
+				}
+				else{
+					return false;
+				}
+			}
+			
+		}
+		
+		return false;
+	}
 	
 }

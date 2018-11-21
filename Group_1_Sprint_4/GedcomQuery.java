@@ -196,28 +196,35 @@ public class GedcomQuery{
 			}
 		}
 			
-		
-		/*UserStory_09.birthBeforeParentsDeath(idList, faList);
+		//Sprint1:
+		UserStory_09.birthBeforeParentsDeath(idList, faList);
 		UserStory_10.marriageAfter_14(idList, faList);
 		UserStory01.birthbeforedeath(idList, faList);
 		UserStory03.birthbeforedeath(idList, faList);
 		UserStory04.marriagebeforedivorce(idList, faList);
 		UserStory07.lessthan150(idList, faList);
+		
+		//Sprint2:
 		UserStory_11.noBigamy(faList);
 		UserStory_12.parentsNotTooOld(idList, faList);
 		UserStory02.birthbeforewedd(idList, faList);
 		UserStory05.weddbeforedeath(idList, faList);
 		US29.ListDeceased(idList, faList);
-		US30.ListLivingMarried(idList, faList);*/
+		US30.ListLivingMarried(idList, faList);
 		
-		//UserStory_13.siblingsSpacing(idList, faList);
-		//UserStory_14.multipleBirthLessThanFive(idList, faList);
-		//UserStory06.checkDivDateBeforeDeathDateForIndi(idList,faList);
-		//UserStory38.listupcomingbirthdatepeopleForIndi(idList,faList);
-		//US31.ListLivingSingle(idList,faList);
+		//Sprint3:
+		UserStory_13.siblingsSpacing(idList, faList);
+		UserStory_14.multipleBirthLessThanFive(idList, faList);
+		UserStory06.checkDivDateBeforeDeathDateForIndi(idList,faList);
+		UserStory38.listupcomingbirthdatepeopleForIndi(idList,faList);
+		US31.ListLivingSingle(idList,faList);
 		US32.ListMultipleBirths(idList,faList);
 
-	
+		//Sprint4:
+		UserStory35.listrecentbirths(idList, faList);
+		UserStory39.Listupcominganniversaries(idList, faList);
+		UserStory_15.fewerThanFifteenSiblings(idList, faList);
+		UserStory_16.maleLastNames(idList, faList);
 	}
 
 
